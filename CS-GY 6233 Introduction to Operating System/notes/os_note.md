@@ -7,17 +7,17 @@
 	* **[Ch3. Processes](#Ch3)**
 	* **[Ch4. Threads](#Ch4)**
 		+ **[4.1 Overview](#4.1)**
-		+ **[4.2 Multicore Programming](### 4.2 Multicore Programming)**
-		+ **[4.3 Multithreading Models](### 4.3 Multithreading Models)**
-		+ **[4.4 Thread Libraries](### 4.4 Thread Libraries)**
-	* **[Ch5. Process Synchronization](## Ch5. Process Synchronization)**
-		+ **[5.1 Background](### 5.1 Background)**
-		+ **[5.2 The Critical-Section Problem](### 5.2 The Critical-Section Problem)**
-		+ **[5.3 Peterson's Solution](### 5.3 Peterson's Solution)**
-		+ **[5.4 Synchronization Hardware](### 5.4 Synchronization Hardware)**
-		+ **[5.5 Mutex Locks](### 5.5 Mutex Locks)**
-		+ **[5.6 Semaphores](### 5.6 Semaphores)**
-		+ **[5.7 Classic Problems of Synchronization](### 5.7 Classic Problems of Synchronization )**
+		+ **[4.2 Multicore Programming](#4.2)**
+		+ **[4.3 Multithreading Models](#4.3)**
+		+ **[4.4 Thread Libraries](#4.4)**
+	* **[Ch5. Process Synchronization](#Ch5)**
+		+ **[5.1 Background](#5.1)**
+		+ **[5.2 The Critical-Section Problem](#5.2)**
+		+ **[5.3 Peterson's Solution](#5.3)**
+		+ **[5.4 Synchronization Hardware](#5.4)**
+		+ **[5.5 Mutex Locks](#5.5)**
+		+ **[5.6 Semaphores](#5.6)**
+		+ **[5.7 Classic Problems of Synchronization](#5.7)**
 
 <a name="Overview"></a>
 # Overview
@@ -29,7 +29,9 @@
 ## Ch2. Operating System Structures
 <a name="Process"></a>
 # Process Management
+<a name="Ch3"></a>
 ## Ch3. Processes
+<a name="Ch4"></a>
 ## Ch4. Threads
 <a name="4.1"></a>
 ### 4.1 Overview
@@ -44,7 +46,8 @@ Figure 4.1 Single-threaded and multithreaded processes
 	- Resource sharing
 	- Economy: Creating and managing threads( and context switches between them) is much faster than performing the same tasks for processes
 	- Scalability
-
+	
+<a name="4.2"></a>
 ### 4.2 Multicore Programming
 
 1. concurrency vs. parallism
@@ -67,6 +70,7 @@ Figure 4.3 Parallelism
 	- **Task parallelism:** divide the different tasks to be performed among the different cores and performs them simultaneously
 	- **Hybrid of the two**
 
+<a name="4.3"></a>
 ### 4.3 Multithreading Models
 1. Types of threads: User threads and kernel threads
 2. User thread -> Kernel thread Models
@@ -81,6 +85,8 @@ Figure 4.3 Parallelism
 	- **Many-To-Many Model**<br>
 	The many-to-many model multiplexes any number of user threads onto an equal or smaller number of kernel threads, combining the best features of the one-to-one and many-to-one models. Blocking kernel system calls do not block the entire process. Processes can be split across multiple processors. Individual processes may be allocated variable numbers of kernel threads, depending on the number of CPUs present and other factors. 
 	![Figure 4.4 parallism](many2many.png)
+
+<a name="4.4"></a>
 ### 4.4 Thread Libraries
 POSIX Pthreads
 
@@ -127,17 +133,29 @@ void *runner(void *param){
 }
 ```
 
+<a name="Ch5"></a>
 ## Ch5. Process Synchronization
+
+<a name="5.1"></a>
 ### 5.1 Background
+<a name="5.2"></a>
 ### 5.2 The Critical-Section Problem
+<a name="5.3"></a>
 ### 5.3 Peterson's Solution
+<a name="5.4"></a>
 ### 5.4 Synchronization Hardware
+<a name="5.5"></a>
 ### 5.5 Mutex Locks
+<a name="5.6"></a>
 ### 5.6 Semaphores
+<a name="5.7"></a>
 ### 5.7 Classic Problems of Synchronization
+<a name="Ch6"></a>
 ## Ch6. CPU Scheduling
+<a name="Ch7"></a>
 ## Ch7. Deadlocks
 # Memory Management
+<a name="Ch8"></a>
 ## Ch8. Main Memory
 ## Ch9. Virtual Memory
 # Storage Management
