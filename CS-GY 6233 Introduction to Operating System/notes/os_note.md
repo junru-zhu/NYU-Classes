@@ -2,10 +2,10 @@
 
 - **[Overview](#Overview)**
 	* **[Ch1. Introduction](#Ch1. Introduction)**
-	* **[Ch2. Operating System Structures](# Ch2. Operating System Structures)**
+	* **[Ch2. Operating System Structures](#Ch2. Operating System Structures)**
 - **[Process Management](#Process Management)**
-	* **[Ch3. Processes](## Ch3. Processes)**
-	* **[Ch4. Threads](## Ch4. Threads)**
+	* **[Ch3. Processes](##Ch3. Processes)**
+	* **[Ch4. Threads](##Ch4. Threads)**
 		+ **[4.1 Overview](### 4.1 Overview)**
 		+ **[4.2 Multicore Programming](### 4.2 Multicore Programming)**
 		+ **[4.3 Multithreading Models](### 4.3 Multithreading Models)**
@@ -19,23 +19,9 @@
 		+ **[5.6 Semaphores](### 5.6 Semaphores)**
 		+ **[5.7 Classic Problems of Synchronization](### 5.7 Classic Problems of Synchronization )**
 
-1. [ Description. ](#desc)
-2. [ Usage tips. ](#usage)
-
-<a name="desc"></a>
-## 1. Description
-
-sometext
-
-<a name="usage"></a>
-## 2. Usage tips
-
-sometext
-	
-
-
 <a name="Overview"></a>
 # Overview
+<a name="Ch1. Introcution"></a>
 ## Ch1. Introcution
 ## Ch2. Operating System Structures
 # Process Management
