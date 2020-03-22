@@ -1,12 +1,12 @@
 ### Table of Contents
 
 - **[Overview](#Overview)**
-	* **[Ch1. Introduction](#Ch1. Introduction)**
-	* **[Ch2. Operating System Structures](#Ch2. Operating System Structures)**
+	* **[Ch1. Introduction](#Ch1)**
+	* **[Ch2. Operating System Structures](#Ch2)**
 - **[Process Management](#Process)**
-	* **[Ch3. Processes](##Ch3. Processes)**
-	* **[Ch4. Threads](##Ch4. Threads)**
-		+ **[4.1 Overview](### 4.1 Overview)**
+	* **[Ch3. Processes](#Ch3)**
+	* **[Ch4. Threads](#Ch4)**
+		+ **[4.1 Overview](#4.1)**
 		+ **[4.2 Multicore Programming](### 4.2 Multicore Programming)**
 		+ **[4.3 Multithreading Models](### 4.3 Multithreading Models)**
 		+ **[4.4 Thread Libraries](### 4.4 Thread Libraries)**
@@ -22,15 +22,16 @@
 <a name="Overview"></a>
 # Overview
 
-<a name="Ch1. Introcution"></a>
+<a name="Ch1"></a>
 ## Ch1. Introcution
 
-<a name="Ch2. Operating System Structures"></a>
+<a name="Ch2"></a>
 ## Ch2. Operating System Structures
 <a name="Process"></a>
 # Process Management
 ## Ch3. Processes
 ## Ch4. Threads
+<a name="4.1"></a>
 ### 4.1 Overview
 1. Definition: A thread is a basic unit of CPU utilization, consisting of a program counter, a stack, and a set of registers, (and a thread ID.) Multithreaded process shares common code, data, and certain structures such as open files.
 ![Figure 4.1 Single-threaded and multithreaded processes](process.png)
