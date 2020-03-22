@@ -1,7 +1,7 @@
 ### Table of Contents
 
 - [Overview](# Overview)
-	* **[Ch1. Introduction](# Ch1. Introduction)**
+	* **[Ch1. Introduction](#Ch1. Introduction)**
 	* **[Ch2. Operating System Structures](# Ch2. Operating System Structures)**
 - **[Process Management](#Process Management)**
 	* **[Ch3. Processes](## Ch3. Processes)**
