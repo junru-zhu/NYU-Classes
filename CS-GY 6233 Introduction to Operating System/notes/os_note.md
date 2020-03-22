@@ -1,6 +1,6 @@
 ### Table of Contents
 
-- **[Overview](# Overview)**<br>
+- **[Overview]**<br>
 	* **[Ch1. Introduction](# Ch1. Introduction)**
 	* **[Ch2. Operating System Structures](# Ch2. Operating System Structures)**<br>
 - **[Process Management](#Process Management)**<br>
