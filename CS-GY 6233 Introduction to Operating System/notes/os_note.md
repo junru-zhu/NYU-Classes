@@ -1,12 +1,12 @@
 ### Table of Contents
 
-- **[Overview]**<br>
+- **[Overview](# Overview)**
 	* **[Ch1. Introduction](# Ch1. Introduction)**
-	* **[Ch2. Operating System Structures](# Ch2. Operating System Structures)**<br>
-- **[Process Management](#Process Management)**<br>
-	* **[Ch3. Processes](## Ch3. Processes)**<br>
-	* **[Ch4. Threads](## Ch4. Threads)**<br>
-		+ **[4.1 Overview](### 4.1 Overview)**<br>
+	* **[Ch2. Operating System Structures](# Ch2. Operating System Structures)**
+- **[Process Management](#Process Management)**
+	* **[Ch3. Processes](## Ch3. Processes)**
+	* **[Ch4. Threads](## Ch4. Threads)**
+		+ **[4.1 Overview](### 4.1 Overview)**
 		+ **[4.2 Multicore Programming](### 4.2 Multicore Programming)**
 		+ **[4.3 Multithreading Models](### 4.3 Multithreading Models)**
 		+ **[4.4 Thread Libraries](### 4.4 Thread Libraries)**
