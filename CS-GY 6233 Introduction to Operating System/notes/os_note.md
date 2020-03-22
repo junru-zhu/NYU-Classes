@@ -1,9 +1,9 @@
 ### Table of Contents
 
-- **[Overview](# Overview)**
+- **[Overview](#Overview)**
 	* **[Ch1. Introduction](#Ch1. Introduction)**
 	* **[Ch2. Operating System Structures](#Ch2. Operating System Structures)**
-- **[Process Management](#Process Management)**
+- **[Process Management](#Process)**
 	* **[Ch3. Processes](##Ch3. Processes)**
 	* **[Ch4. Threads](##Ch4. Threads)**
 		+ **[4.1 Overview](### 4.1 Overview)**
@@ -27,7 +27,7 @@
 
 <a name="Ch2. Operating System Structures"></a>
 ## Ch2. Operating System Structures
-<a name="Process Management"></a>
+<a name="Process"></a>
 # Process Management
 ## Ch3. Processes
 ## Ch4. Threads
